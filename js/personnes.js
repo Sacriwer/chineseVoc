@@ -1,12 +1,12 @@
 function getSujets(){
-	return [ ["Je","Wô"],
-			 ["Tu","Nî/Nin"],
-			 ["Il/Elle","Ta"],
-			 ["Nous","Wômen"],
-			 ["Vous","Nîmen"],
-			 ["Ils/Elles","Tamen"],
-			 ["grand frère","gege"],
-			 ["petit frère","didi"],
-			 ["petite amie","pengyou"]
+	return [ ["Je","Wǒ"],
+			 ["Tu","Nǐ/Nín"],
+			 ["Il/Elle","Tā"],
+			 ["Nous","Wǒmen"],
+			 ["Vous","Nímen"],
+			 ["Ils/Elles","Tāmen"],
+			 ["grand frère","gēge"],
+			 ["petit frère","dìdi"],
+			 ["petite amie","péngyou"]
 			 ]
 }

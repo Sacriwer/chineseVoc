@@ -13,7 +13,6 @@ function fillSujets(){
 	fillTableGeneric("subject",getSujets());
 }
 
-
 function fillVerbes(){
 	fillTableGeneric("verbes",getVerbes());
 }
@@ -30,12 +29,28 @@ function fillPrepositions(){
 	fillTableGeneric("prepositions",getPrepositions());
 }
 
+function fillCouleurs(){
+	fillTableGeneric("couleurs",getCouleurs());
+}
+
+function fillPolitesses(){
+	fillTableGeneric("politesses",getPolitesses());
+}
+
+function fillCorps(){
+	fillTableGeneric("corps",getCorps());
+}
+
+
 function fillAll(){
 	fillSujets()
 	fillVerbes();
 	fillNoms();
 	fillAdjectifs();
 	fillPrepositions();
+	fillCouleurs();
+	fillPolitesses();
+	fillCorps();
 }
 
 function readMyFile(){
@@ -91,6 +106,8 @@ function writeInFile(){
 
 
 function addRow2(tableId,col1,col2){
+	console.log(addRow2);
+	console.log(tableId,col1,col2);
 	var targetElem = document.getElementById(tableId);
 	let newRow = targetElem.insertRow(-1);
  // Insert a cell in the row at index 0
