@@ -1,5 +1,5 @@
 function getCouleurs(){
-	return [ ["vert","lu"],
+	return [ ["vert","lǜ"],
 			 ["noir","hong"]
 			 ]
 }

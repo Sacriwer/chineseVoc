@@ -1,6 +1,8 @@
 function getNoms(){
-	return [ ["poisson","yu"],
-			 ["soupe","tang"],
-			 ["thé","cha"],
+	return [ ["poisson","yú"],
+			 ["soupe","tāng"],
+			 ["thé","chá"],
+			 ["toilettes","cèsuǒ"],
+			 ["travail","gōngzuò"]
 			 ]
 }

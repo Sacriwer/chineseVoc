@@ -1,10 +1,11 @@
 function getPolitesses(){
-	return [ ["Au revoir","Zaijian"],
-			 ["Bonjour","Ni Hao"],
+	return [ ["Au revoir","Zàijiàn"],
+			 ["Bonjour","Nǐ hǎo"],
 			 ["S'll vous plait","Qin"],
-			 ["Merci","xiexie"],
-			 ["Dommage","Tai kexi le"],
-			 ["Désolé","Duibuqi"]
-			 
-			 ]
+			 ["Merci","xièxie"],
+			 ["Dommage","Tài kěxì le"],
+			 ["Désolé","Duìbuqǐ"],
+			 ["Bien sûr","Dāngrán"],
+			 ["Comme-ci comme çà","Mǎma hūhū"]
+			 			 ]
 }

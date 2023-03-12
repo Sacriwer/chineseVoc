@@ -1,56 +1,70 @@
 
 console.log('script initial call');
-//fillTable();
 //interpretVerbes();
 //writeInFile();
 fillAll();
 
-function displayHello(){
-	console.log('hello');
+function cleanMainDiv() {
+	var targetElem = document.getElementById("mainDiv");
+	div.targetElem.removeChild(targetElem);
+  //targetElem.innerHTML += "";
 }
 
-function fillSujets(){
-	fillTableGeneric("subject",getSujets());
+ function insertHtml(selector, html) {
+ 	console.log("insertHTML")
+ 	console.log(html)
+  var targetElem = document.getElementById("mainDiv");
+  targetElem.innerHTML += html;
+};
+
+function createLines(vals){
+	console.log("createLines")
+	console.log(vals)
+	var vale = ""
+	for(const elt of vals){
+  vale += '<tr><td>'+elt[0]+'</td><td>'+elt[1]+'</td></tr>';
+}
+return vale
 }
 
-function fillVerbes(){
-	fillTableGeneric("verbes",getVerbes());
-}
+function injectTableau(title,id,values0) {
+	console.log("injectTableau")
+	console.log(values0)
+	//insertHtml("custom","<p>mon texte</p>")
 
-function fillNoms(){
-	fillTableGeneric("noms",getNoms());
-}
-
-function fillAdjectifs(){
-	fillTableGeneric("adjectifs",getAdjectifs());
-}
-
-function fillPrepositions(){
-	fillTableGeneric("prepositions",getPrepositions());
-}
-
-function fillCouleurs(){
-	fillTableGeneric("couleurs",getCouleurs());
-}
-
-function fillPolitesses(){
-	fillTableGeneric("politesses",getPolitesses());
-}
-
-function fillCorps(){
-	fillTableGeneric("corps",getCorps());
+insertHtml("custom",'<section class=\"row font\">  \
+  <div class=\"recipe col-lg-2 col-md-6 col-sd-12\">\
+    <head class=\"contour\">' + title +'</head>\
+    <table border=1 id='+id+'\">\
+       <tr>\
+        <th>Français</td>\
+        <th>Pinyin</th>\
+    </tr>\
+    '+ createLines(values0) + 
+'</tr>\
+</table>\
+</div>\
+</section>');
 }
 
 
 function fillAll(){
-	fillSujets()
-	fillVerbes();
-	fillNoms();
-	fillAdjectifs();
-	fillPrepositions();
-	fillCouleurs();
-	fillPolitesses();
-	fillCorps();
+	//injectTableau("MyTableau","myTableau",getAdjectifs());
+	injectTableau("Expressions","expressions",getIdioms());
+	injectTableau("Sujets","sujets",getSujets());
+	injectTableau("Verbes","verbes",getVerbes());
+	injectTableau("Politesses","politesse",getPolitesses());
+	injectTableau("Noms","noms",getNoms());
+	injectTableau("Ajectifs","ajectifs",getAdjectifs());
+	injectTableau("Prepositions","prepositions",getPrepositions());
+	injectTableau("Couleurs","couleurs",getCouleurs());
+	injectTableau("Corps","corps",getCorps());
+
+}
+
+function cleanAndFill(){
+	cleanMainDiv();
+	fillAll();
 }
 
 function readMyFile(){

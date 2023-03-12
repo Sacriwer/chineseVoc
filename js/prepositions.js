@@ -1,10 +1,11 @@
 function getPrepositions(){
 	return [ ["qui","shei"],
-			 ["ici","zheli"],
+			 ["ici","zhèlǐ"],
 			 ["est-ce que","ma"],
-			 ["qu'est-ce que","shenme"],
-			 ["très","hên"],
+			 ["qu'est-ce que","shénme"],
+			 ["très","hěn"],
 			 ["Mais alors","na"],
-			 ["aussi","ye"]
+			 ["aussi","yě"],
+			 ["mais","kěshì"]
 			 ]
 }

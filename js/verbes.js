@@ -1,11 +1,15 @@
 function getVerbes(){
 	return [ ["être","shi"],
-			 ["avoir","you"],
-			 ["manger","chi"],
-			 ["boire","tang"],
+			 ["avoir","yǒu"],
+			 ["ne pas avoir","méi yǒu"],
+			 ["manger","chī"],
+			 ["boire","hē"],
 			 ["regarder","kan"],
-			 ["jeter un oeil","kan kan"],
+			 ["jeter un oeil","kàn-kan"],
 			 ["aller","qu"],
-			 ["comprendre","dong"]
+			 ["comprendre","dǒng"],
+			 ["aimer","ài"],
+			 ["apprécier","xihuān"],
+			 ["vouloir","yào"]
 			 ]
 }

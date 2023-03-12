@@ -1,8 +1,12 @@
 function getAdjectifs(){
-	return [ ["fatigué","lei"],
-			 ["faim","e"],
-			 ["soif","ke"],
-			 ["cher","gui"],
-			 ["beau(homme)","shuai"]
+	return [ ["fatigué","lèi"],
+			 ["faim","è"],
+			 ["soif","kě"],
+			 ["cher","guì"],
+			 ["occupé","máng"],
+			 ["intéressant","yìsi"],
+			 ["nouveau","xīn"],
+			 ["beau(homme)","shuài"],
+			 ["belle(femmes)","piàoliang"],
 			 ]
 }

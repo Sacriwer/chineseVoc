@@ -7,6 +7,7 @@ function getSujets(){
 			 ["Ils/Elles","Tāmen"],
 			 ["grand frère","gēge"],
 			 ["petit frère","dìdi"],
-			 ["petite amie","péngyou"]
+			 ["petite amie","péngyou"],
+			 ["secrétaire","mishū"]
 			 ]
 }

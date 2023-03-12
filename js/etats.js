@@ -1,6 +1,6 @@
 function getEtats(){
-	return [ ["fatigué","lei"],
-			 ["faim","e"],
-			 ["soif","ke"]
+	return [ ["fatigué","lèi"],
+			 ["faim","è"],
+			 ["soif","kě"]
 			 ]
 }
