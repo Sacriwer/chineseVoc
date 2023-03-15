@@ -59,6 +59,9 @@ function fillAll(){
 	injectTableau("Prepositions","prepositions",getPrepositions());
 	injectTableau("Couleurs","couleurs",getCouleurs());
 	injectTableau("Corps","corps",getCorps());
+	injectTableau("Evenements","evenements",getEvenements());
+	injectTableau("Cuisines","cuisines",getCuisines());
+	injectTableau("Temps","temps",getTemps());
 
 }
 

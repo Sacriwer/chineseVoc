@@ -4,12 +4,17 @@ function getVerbes(){
 			 ["ne pas avoir","méi yǒu"],
 			 ["manger","chī"],
 			 ["boire","hē"],
-			 ["regarder","kan"],
+			 ["regarder","kàn"],
 			 ["jeter un oeil","kàn-kan"],
-			 ["aller","qu"],
+			 ["aller","qù"],
 			 ["comprendre","dǒng"],
+			 ["savoir/avoir connaissance","zhīdào"],
 			 ["aimer","ài"],
 			 ["apprécier","xihuān"],
-			 ["vouloir","yào"]
+			 ["vouloir","yào"],
+			 ["offrir","sòng"],
+			 ["inviter","qǐng"],
+			 ["avoir envie/vouloir","xiāng"],
+			 ["acheter","mǎi"]
 			 ]
 }

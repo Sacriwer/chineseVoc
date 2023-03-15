@@ -3,6 +3,11 @@ function getNoms(){
 			 ["soupe","tāng"],
 			 ["thé","chá"],
 			 ["toilettes","cèsuǒ"],
-			 ["travail","gōngzuò"]
+			 ["travail","gōngzuò"],
+			 ["quelque chose","dōngxi"],
+			 ["vêtement","yīfu"],
+			 ["chaussure","xié"],
+			 ["sac","bāo"],
+			 ["(de l') argent","qiān"]
 			 ]
 }

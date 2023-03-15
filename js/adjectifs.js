@@ -8,5 +8,7 @@ function getAdjectifs(){
 			 ["nouveau","xīn"],
 			 ["beau(homme)","shuài"],
 			 ["belle(femmes)","piàoliang"],
+			 ["joyeux","kuàilè"],
+			 ["radin","xiǎoqi"]
 			 ]
 }

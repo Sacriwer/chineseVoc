@@ -1,5 +1,6 @@
 function getCouleurs(){
 	return [ ["vert","lǜ"],
-			 ["noir","hong"]
+			 ["rouge","hong"],
+			 ["thé noir","hong chá"]
 			 ]
 }
