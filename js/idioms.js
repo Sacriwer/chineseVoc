@@ -11,6 +11,7 @@ function getIdioms(){
 	["Où veux-tu aller?","Nǐ xiāng qù nǎli?"],
 	["Tu achète encore des chaussures","Nǐ hǎi mǎi xié?"],
 	["ce n'est pas grave","méi guānxi"],
-	["Est-ce qu'il y a des toilettes ici?","zhèli yǒu cèsuǒ ma?"]
+	["Est-ce qu'il y a des toilettes ici?","zhèli yǒu cèsuǒ ma?"],
+	["Pourquoi tu n'achete pas","ni wei sheme mai"]
 	]		 
 }

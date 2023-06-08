@@ -8,6 +8,8 @@ function getNoms(){
 			 ["vêtement","yīfu"],
 			 ["chaussure","xié"],
 			 ["sac","bāo"],
-			 ["(de l') argent","qiān"]
+			 ["(de l') argent","qiān"],
+			 ["idée","zhǔyi"],
+			 ["appartement","fángzi"]
 			 ]
 }

@@ -8,6 +8,7 @@ function getSujets(){
 			 ["grand frère","gēge"],
 			 ["petit frère","dìdi"],
 			 ["petite amie","nǚ péngyou"],
-			 ["secrétaire","mishū"]
+			 ["secrétaire","mishū"],
+			 ["ce/çà/ceci", "zhè"]
 			 ]
 }

@@ -9,6 +9,11 @@ function getAdjectifs(){
 			 ["beau(homme)","shuài"],
 			 ["belle(femmes)","piàoliang"],
 			 ["joyeux","kuàilè"],
-			 ["radin","xiǎoqi"]
+			 ["radin","xiǎoqi"],
+			 ["bon marché","piányi"],
+			 ["froid","lěng"],
+			 ["chaud","rè"],
+			 ["calme","ānjìng"],
+			 ["gratuit","miǎnfèi"]
 			 ]
 }

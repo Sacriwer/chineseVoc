@@ -15,6 +15,7 @@ function getVerbes(){
 			 ["offrir","sòng"],
 			 ["inviter","qǐng"],
 			 ["avoir envie/vouloir","xiāng"],
-			 ["acheter","mǎi"]
+			 ["acheter","mǎi"],
+			 ["habiter","zhù"]
 			 ]
 }
