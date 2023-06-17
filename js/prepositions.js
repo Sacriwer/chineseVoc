@@ -12,6 +12,9 @@ function getPrepositions(){
 			 ["pourquoi (pour-quoi)","wěi shénme"],
 			 ["parce que","yīnwěi"],
 			 ["ensemble","yìqǐ"],
-			 ["en plus","érqiě"]
+			 ["en plus","érqiě"],
+			 ["jusqu'à / vers","dào"]
+			 ["loin","yuǎn"],
+			 ["beaucoup","duō"]
 			 ]
 }

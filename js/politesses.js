@@ -8,6 +8,7 @@ function getPolitesses(){
 			 ["Bien sûr","Dāngrán"],
 			 ["Comme-ci comme çà","Mǎma hūhū"],
 			 ["Super","Tài hǎo le"],
-			 ["Pardon? (quoi?)","shénme"]
+			 ["Pardon? (quoi?)","shénme"],
+			 ["Oh oui","shì a"]
 			 			 ]
 }

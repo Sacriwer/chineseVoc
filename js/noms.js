@@ -10,6 +10,9 @@ function getNoms(){
 			 ["sac","bāo"],
 			 ["(de l') argent","qiān"],
 			 ["idée","zhǔyi"],
-			 ["appartement","fángzi"]
+			 ["appartement","fángzi"],
+			 ["hôtel","jiǔdiàn / fandiàn"],
+			 ["minute","fēnzhōng"],
+			 ["rue","mǎlù"]
 			 ]
 }

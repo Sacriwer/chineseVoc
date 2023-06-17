@@ -16,6 +16,8 @@ function getVerbes(){
 			 ["inviter","qǐng"],
 			 ["avoir envie/vouloir","xiāng"],
 			 ["acheter","mǎi"],
-			 ["habiter","zhù"]
+			 ["habiter","zhù"],
+			 ["venir (provenance)","cóng"],
+			 ["traverser","guò"]
 			 ]
 }

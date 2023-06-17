@@ -14,6 +14,7 @@ function getAdjectifs(){
 			 ["froid","lěng"],
 			 ["chaud","rè"],
 			 ["calme","ānjìng"],
-			 ["gratuit","miǎnfèi"]
+			 ["gratuit","miǎnfèi"],
+			 ["difficile","nán"]
 			 ]
 }
