@@ -10,5 +10,5 @@ function getPolitesses(){
 			 ["Super","Tài hǎo le"],
 			 ["Pardon? (quoi?)","shénme"],
 			 ["Oh oui","shì a"]
-			 			 ]
+			 ]
 }
