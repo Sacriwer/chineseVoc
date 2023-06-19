@@ -18,6 +18,8 @@ function getVerbes(){
 			 ["acheter","mǎi"],
 			 ["habiter","zhù"],
 			 ["venir (provenance)","cóng"],
-			 ["traverser","guò"]
+			 ["traverser","guò"],
+			 ["travailler","zuò"],
+			 ["travailler-comme","dang-guo"]
 			 ]
 }

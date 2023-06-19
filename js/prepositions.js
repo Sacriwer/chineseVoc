@@ -13,8 +13,9 @@ function getPrepositions(){
 			 ["parce que","yīnwěi"],
 			 ["ensemble","yìqǐ"],
 			 ["en plus","érqiě"],
-			 ["jusqu'à / vers","dào"]
+			 ["jusqu'à / vers","dào"],
 			 ["loin","yuǎn"],
-			 ["beaucoup","duō"]
+			 ["beaucoup","duō"],
+			 ["combien","jǐ"]
 			 ]
 }

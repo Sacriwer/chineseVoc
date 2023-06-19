@@ -17,6 +17,13 @@ function cleanMainDiv() {
   targetElem.innerHTML += html;
 };
 
+ function insertHtml2(selector, html) {
+ 	console.log("insertHTML2")
+ 	console.log(html)
+  var targetElem = document.getElementById("mainDiv2");
+  targetElem.innerHTML += html;
+};
+
 function createLines(vals){
 	console.log("createLines")
 	console.log(vals)
@@ -47,21 +54,41 @@ insertHtml("custom",'<section class=\"row font\">  \
 </section>');
 }
 
+function injectTableau2(title,id,values0) {
+	console.log("injectTableau2")
+	console.log(values0)
+
+insertHtml2("custom",'<section class=\"row font\">  \
+  <div class=\"recipe col-lg-2 col-md-6 col-sd-12\">\
+    <head class=\"contour\">' + title +'</head>\
+    <table border=1 id='+id+'\">\
+       <tr>\
+        <th>Français</td>\
+        <th>Pinyin</th>\
+    </tr>\
+    '+ createLines(values0) + 
+'</tr>\
+</table>\
+</div>\
+</section>');
+}
+
 
 function fillAll(){
-	//injectTableau("MyTableau","myTableau",getAdjectifs());
+
 	injectTableau("Expressions","expressions",getIdioms());
-	injectTableau("Sujets","sujets",getSujets());
-	injectTableau("Verbes","verbes",getVerbes());
-	injectTableau("Politesses","politesse",getPolitesses());
-	injectTableau("Noms","noms",getNoms());
-	injectTableau("Ajectifs","ajectifs",getAdjectifs());
 	injectTableau("Prepositions","prepositions",getPrepositions());
+	injectTableau("Ajectifs","ajectifs",getAdjectifs());
+	injectTableau("Verbes","verbes",getVerbes());
+	injectTableau("Noms","noms",getNoms());
+	injectTableau("Sujets","sujets",getSujets());
+	injectTableau("Politesses","politesse",getPolitesses());
 	injectTableau("Couleurs","couleurs",getCouleurs());
 	injectTableau("Corps","corps",getCorps());
 	injectTableau("Evenements","evenements",getEvenements());
 	injectTableau("Cuisines","cuisines",getCuisines());
 	injectTableau("Temps","temps",getTemps());
+	//injectTableau2("Cuisines","cuisines",getCuisines());
 
 }
 

@@ -13,6 +13,8 @@ function getNoms(){
 			 ["appartement","fángzi"],
 			 ["hôtel","jiǔdiàn / fandiàn"],
 			 ["minute","fēnzhōng"],
-			 ["rue","mǎlù"]
+			 ["rue","mǎlù"],
+			 ["maison/famille","jia"],
+				 ["trvailler dans les affaires","zuò shēngyì"]
 			 ]
 }

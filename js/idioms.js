@@ -12,6 +12,8 @@ function getIdioms(){
 	["Tu achète encore des chaussures","Nǐ hǎi mǎi xié?"],
 	["ce n'est pas grave","méi guānxi"],
 	["Est-ce qu'il y a des toilettes ici?","zhèli yǒu cèsuǒ ma?"],
-	["Pourquoi tu n'achete pas","ni wei sheme mai"]
+	["Pourquoi tu n'achete pas","ni wei sheme mai"],
+	["Où es-tu allé hier","ni zuotian qu-le nar"],
+	["çà peut aller","kěyi"]
 	]		 
 }

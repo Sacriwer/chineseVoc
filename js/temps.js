@@ -1,7 +1,10 @@
 function getTemps(){
-	return [["aujourd'hui","jīntiān"],
+	return [ ["aujourd'hui","jīntiān"],
 	["demain","mingtiān"],
-	["maintenant","xiànzài"];
+	["hier","zuótiān"],
+	["maintenant","xiànzài / zài"],
+	["cette année","jīnnián"],
+	["autrefois","guòqǜ"],
 	["hiver","dōngtiān"],
 	["été","xiàtiān"]
 	]
